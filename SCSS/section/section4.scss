@@ -1,0 +1,42 @@
+.section_4{
+    padding-top: 80px;
+    background-color: $section2;
+    h5{
+        font-size: 42px;
+        text-align: center;
+    }
+    .span_container{
+        @include FlexProperty(center , center);
+        padding-top: 40px;
+        span{
+            font-size: 19px;
+            &:last-child{
+                margin-left: 50px;
+            }
+        }
+        .click{
+            color: $dark_orange;
+            border-bottom: 3px solid $dark_orange;
+            border-radius: 1px;
+        }
+    }
+    .screenshot_container{
+        @include FlexProperty(center , inherit);
+        flex-wrap: wrap;
+        margin-top: 40px;
+        .img_container{
+            max-width: 380px;
+            width: 100%;
+            padding: 38px 20px;
+            img{
+                width: 100%;
+                transition: all 0.5s;
+                border-radius: 10px;
+                &:hover{
+                    transform: scale(1.05);
+                    filter: grayscale(100%);
+                }
+            }
+        }
+    }
+}

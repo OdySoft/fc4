@@ -1,0 +1,36 @@
+.section_1{
+    transform: translateY(100px);
+    padding-bottom: 100px;
+    .background{
+        background-image: url("../img/far_cry_4_yeti-wallpaper-1920x1080.jpg");
+        width: 100%;
+        height: 650px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .far-cry-4-logo{
+            right: 0;
+            bottom: 200px;
+        }
+        .watch_trailer{
+            bottom: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            button{
+                width: 206px;
+                height: 54px;
+                background-color: $dark_orange;
+                font-size: 22px;
+                border-radius: 30px;
+                border: solid 2px $dark_orange;
+                letter-spacing: 1px;
+                transition: all 0.4s;
+                color: $white;
+                &:hover{
+                    background-color: $white;
+                    color: $dark_orange;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.section_3{
+    background-color: $section;
+    padding: 70px 0;
+    h4{
+        font-size: 40px;
+        text-align: center;
+    }
+    .game_overview_box{
+        max-width: 1440px;
+        width: 100%;
+        padding: 0px 50px;
+        margin: 0 auto;
+        margin-top: 100px;
+        @include FlexProperty(inherit , center);
+        .line1_box{
+            width: 100%;
+            height: auto;
+            max-width: 850px;
+            img{
+                 width: 100%;
+                 border-radius: 10px;
+            }
+        }
+        .line2_box{
+            width: 100%;
+            max-width: 750px;
+            background-color: $white;
+            height: 370px;
+            padding: 34px 0px 0px 40px;
+            border-radius: 10px;
+            h5{
+                font-size: 40px;
+                color: $black2;
+                max-width: 560px;
+            }
+            p{
+                margin-top: 20px;
+                line-height: 30px;
+                color: $black2;
+                font-size: 18px;
+                max-width: 560px;
+            }
+        }
+    }
+}

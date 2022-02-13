@@ -1,0 +1,86 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    .header_container{
+        height: 100px;
+        .header-box{
+            height: 50%;
+            &:nth-child(1){
+                background-color: $black;
+                padding: 0px 50px;
+                .image{
+                    height: 36px;
+                    img{
+                        height: 100%;
+                        transition: all 0.4s;
+                        &:hover{
+                            transform: rotate(360deg);
+                        }
+                    }
+                }
+                .navigation{
+                    ul{
+                        .nav-list{
+                            &:hover{
+                                a{
+                                    color: $dark_orange;
+                                }
+                            }
+                            &:not(:first-child){
+                                margin-left: 50px;
+                            }
+                            a{
+                                font-size: 19px;
+                                color: $white;
+                                font-weight: bold;
+                                transition: all 0.4s;
+                            }
+                        }
+                    }
+                }
+                .right_block{
+                    .svg{
+                        transition: all 0.2s;
+                        &:hover{
+                            transform: scale(0.9);
+                        }
+                        width: 30px;
+                        height: 30px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        &:first-child{
+                            margin-right: 60px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2){
+                background-color: $gray;
+                padding-left: 50px;
+                .farcry4_ubisoft {
+                    width: 138px;
+                    height: 50px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .buy_now{
+                    width: 250px;
+                    height: 100%;
+                    background-color: $dark_orange;
+                    font-size: 25px;
+                    color: $white;
+                    border: solid 1px $dark_orange;
+                    letter-spacing: 2px;
+                    &:hover{
+                        background-color: $white;
+                        color: $dark_orange;
+                    }
+                }
+            }
+        }
+    }
+}

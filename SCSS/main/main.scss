@@ -1,0 +1,28 @@
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.transition03{
+    transition: all 0.3s;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: $gray;
+}
+body::-webkit-scrollbar-thumb {
+    background:$scroll;
+    border-radius: 10px;
+}
+.position_relative{
+    position: relative;
+}
+.position_absolute{
+    position: absolute;
+}

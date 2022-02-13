@@ -1,0 +1,343 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url("../fonts/bpg-nino-mtavruli-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-nino-mtavruli-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-nino-mtavruli-webfont.woff2") format("woff2"), url("../fonts/bpg-nino-mtavruli-webfont.woff") format("woff"), url("../fonts/bpg-nino-mtavruli-webfont.ttf") format("truetype"), url("../fonts/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular") format("svg");
+  /* Legacy iOS */
+}
+.bpg-nino-mtavruli {
+  font-family: "BPG Nino Mtavruli";
+}
+
+@font-face {
+  font-family: "BPG Nino Mtavruli Bold";
+  src: url("../fonts/bpg-nino-mtavruli-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bpg-nino-mtavruli-bold-webfont.woff2") format("woff2"), url("../fonts/bpg-nino-mtavruli-bold-webfont.woff") format("woff"), url("../fonts/bpg-nino-mtavruli-bold-webfont.ttf") format("truetype"), url("../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold") format("svg");
+  /* Legacy iOS */
+}
+.bpg-nino-mtavruli-bold {
+  font-family: "BPG Nino Mtavruli Bold";
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.transition03 {
+  transition: all 0.3s;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2a2b2f;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #3d58c5;
+  border-radius: 10px;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_absolute {
+  position: absolute;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+header .header_container {
+  height: 100px;
+}
+header .header_container .header-box {
+  height: 50%;
+}
+header .header_container .header-box:nth-child(1) {
+  background-color: black;
+  padding: 0px 50px;
+}
+header .header_container .header-box:nth-child(1) .image {
+  height: 36px;
+}
+header .header_container .header-box:nth-child(1) .image img {
+  height: 100%;
+  transition: all 0.4s;
+}
+header .header_container .header-box:nth-child(1) .image img:hover {
+  transform: rotate(360deg);
+}
+header .header_container .header-box:nth-child(1) .navigation ul .nav-list:hover a {
+  color: #f44d21;
+}
+header .header_container .header-box:nth-child(1) .navigation ul .nav-list:not(:first-child) {
+  margin-left: 50px;
+}
+header .header_container .header-box:nth-child(1) .navigation ul .nav-list a {
+  font-size: 19px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+header .header_container .header-box:nth-child(1) .right_block .svg {
+  transition: all 0.2s;
+  width: 30px;
+  height: 30px;
+}
+header .header_container .header-box:nth-child(1) .right_block .svg:hover {
+  transform: scale(0.9);
+}
+header .header_container .header-box:nth-child(1) .right_block .svg img {
+  width: 100%;
+  height: 100%;
+}
+header .header_container .header-box:nth-child(1) .right_block .svg:first-child {
+  margin-right: 60px;
+}
+header .header_container .header-box:nth-child(2) {
+  background-color: #2a2b2f;
+  padding-left: 50px;
+}
+header .header_container .header-box:nth-child(2) .farcry4_ubisoft {
+  width: 138px;
+  height: 50px;
+}
+header .header_container .header-box:nth-child(2) .farcry4_ubisoft img {
+  width: 100%;
+}
+header .header_container .header-box:nth-child(2) .buy_now {
+  width: 250px;
+  height: 100%;
+  background-color: #f44d21;
+  font-size: 25px;
+  color: white;
+  border: solid 1px #f44d21;
+  letter-spacing: 2px;
+}
+header .header_container .header-box:nth-child(2) .buy_now:hover {
+  background-color: white;
+  color: #f44d21;
+}
+
+.section_1 {
+  transform: translateY(100px);
+  padding-bottom: 100px;
+}
+.section_1 .background {
+  background-image: url("../img/far_cry_4_yeti-wallpaper-1920x1080.jpg");
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_1 .background .far-cry-4-logo {
+  right: 0;
+  bottom: 200px;
+}
+.section_1 .background .watch_trailer {
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_1 .background .watch_trailer button {
+  width: 206px;
+  height: 54px;
+  background-color: #f44d21;
+  font-size: 22px;
+  border-radius: 30px;
+  border: solid 2px #f44d21;
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  color: white;
+}
+.section_1 .background .watch_trailer button:hover {
+  background-color: white;
+  color: #f44d21;
+}
+
+.section_2 .section2_container {
+  max-width: 1220px;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 0 auto;
+  z-index: 40;
+  transform: translateY(-60px);
+  padding-bottom: 80px;
+  justify-content: inherit;
+  align-items: center;
+}
+.section_2 .section2_container h1 {
+  font-size: 72px;
+  margin-top: 35px;
+}
+.section_2 .section2_container p {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 60px;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 50px;
+}
+
+.section_3 {
+  background-color: #f0f3f4;
+  padding: 70px 0;
+}
+.section_3 h4 {
+  font-size: 40px;
+  text-align: center;
+}
+.section_3 .game_overview_box {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0px 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  justify-content: inherit;
+  align-items: center;
+}
+.section_3 .game_overview_box .line1_box {
+  width: 100%;
+  height: auto;
+  max-width: 850px;
+}
+.section_3 .game_overview_box .line1_box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.section_3 .game_overview_box .line2_box {
+  width: 100%;
+  max-width: 750px;
+  background-color: white;
+  height: 370px;
+  padding: 34px 0px 0px 40px;
+  border-radius: 10px;
+}
+.section_3 .game_overview_box .line2_box h5 {
+  font-size: 40px;
+  color: #272727;
+  max-width: 560px;
+}
+.section_3 .game_overview_box .line2_box p {
+  margin-top: 20px;
+  line-height: 30px;
+  color: #272727;
+  font-size: 18px;
+  max-width: 560px;
+}
+
+.section_4 {
+  padding-top: 80px;
+  background-color: #c2cdd1;
+}
+.section_4 h5 {
+  font-size: 42px;
+  text-align: center;
+}
+.section_4 .span_container {
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.section_4 .span_container span {
+  font-size: 19px;
+}
+.section_4 .span_container span:last-child {
+  margin-left: 50px;
+}
+.section_4 .span_container .click {
+  color: #f44d21;
+  border-bottom: 3px solid #f44d21;
+  border-radius: 1px;
+}
+.section_4 .screenshot_container {
+  justify-content: center;
+  align-items: inherit;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.section_4 .screenshot_container .img_container {
+  max-width: 380px;
+  width: 100%;
+  padding: 38px 20px;
+}
+.section_4 .screenshot_container .img_container img {
+  width: 100%;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+.section_4 .screenshot_container .img_container img:hover {
+  transform: scale(1.05);
+  filter: grayscale(100%);
+}
